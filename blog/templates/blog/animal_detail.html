@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/animal_detail.css' %}">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="page-header">
+            <h1><a href="/">L'animalerie</a></h1>
+        </div>
+        <div class="photo">
+            <img src="{% static animal.photo %}" alt="animal" class ="image_animal">
+        </div>
+        <table>
+            <div class="categories">
+                <tr>
+                    <th>Nom animal</th>
+                    <th>Etat</th>
+                    <th>Type</th>
+                    <th>Race</th>
+                    <th>Lieu</th>
+                </tr>
+            </div>
+            <div class="animal">
+                <tr>
+                    <div class="nom">
+                        <td>{{ animal.id_animal }}</td>
+                    </div>
+                    <div class="etat">
+                        <td>{{ animal.etat }}</td>
+                    </div>
+                    <div class="type">
+                        <td>{{ animal.type }}</td>
+                    </div>
+                    <div class="race">
+                        <td>{{ animal.race }}</td>
+                    </div>
+
+                    <div class="lieu">
+                        <td>{{ animal.lieu }}</td>
+                    </div>
+                </tr>
+            </div>
+        </table>
+
+
+    </body>
+</html>

@@ -1,0 +1,37 @@
+{
+    "Bud": {
+        "RACE": "tamia",
+        "TYPE": "rongeur",
+        "ETAT": "affam\u00e9",
+        "LIEU": "liti\u00e8re",
+        "PHOTO": "media/tamia1.jpg"
+    },
+    "Etno": {
+        "RACE": "tamia",
+        "TYPE": "rongeur",
+        "ETAT": "affam\u00e9",
+        "LIEU": "liti\u00e8re",
+        "PHOTO": "media/tamia2.jpg"
+    },
+    "Candy": {
+        "RACE": "hamster",
+        "TYPE": "rongeur",
+        "ETAT": "affam\u00e9",
+        "LIEU": "liti\u00e8re",
+        "PHOTO": "media/hamster.jpg"
+    },
+    "Gorgious": {
+        "RACE": "ili pika",
+        "TYPE": "rongeur",
+        "ETAT": "fatigu\u00e9",
+        "LIEU": "mangeoire",
+        "PHOTO": "media/ilipika.jpg"
+    },
+    "Stereo": {
+        "RACE": "opossum",
+        "TYPE": "marsupial",
+        "ETAT": "endormi",
+        "LIEU": "nid",
+        "PHOTO": "media/oppossum.jpg"
+    }
+}
